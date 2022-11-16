@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Bienvenue from './components/bienvenue/bienvenue';
 import ProductList from './components/products-list/products-list';
+import Counter from './components/counter/counter';
 
 function App() {
 
@@ -17,6 +18,11 @@ function App() {
       <Bienvenue name="Sylvain" age={45}/>
       <h1>Exo 02</h1>
       <ProductList products={products}/>
+      <h1>Exo 03</h1>
+      <Counter incr={2}/>
+      <Counter incr={5}/>
+      <Counter/>
+      <Counter/>
     </div>
   );
 }
