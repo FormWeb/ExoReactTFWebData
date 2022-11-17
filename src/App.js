@@ -3,6 +3,7 @@ import './App.css';
 import Bienvenue from './components/bienvenue/bienvenue';
 import ProductList from './components/products-list/products-list';
 import Counter from './components/counter/counter';
+import Calculatrice from './components/calculatrice/calculatrice';
 
 function App() {
 
@@ -20,9 +21,8 @@ function App() {
       <ProductList products={products}/>
       <h1>Exo 03</h1>
       <Counter incr={2}/>
-      <Counter incr={5}/>
-      <Counter/>
-      <Counter/>
+      <h1>Exo 04</h1>
+      <Calculatrice scientifique={true}/>
     </div>
   );
 }
